@@ -1,0 +1,1 @@
+ALTER TABLE public.assignments ADD COLUMN IF NOT EXISTS test_questions jsonb NOT NULL DEFAULT '[]'::jsonb;
